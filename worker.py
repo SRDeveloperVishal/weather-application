@@ -22,7 +22,7 @@ def fetch_data():
     observation_time = data['observation_time']
 
     try:
-        conn = psycopg2.connect(dbname='weather', user='postgres', host='localhost', password='Karala4757')
+        conn = psycopg2.connect(dbname='df3m11t651heh7', user='htjqovxutdowtg', host='ec2-54-225-230-142.compute-1.amazonaws.com', password='2066ad4ab7270ea37e686fa0f97b7bf3516927f43adce742fb66e709a3847e45')
         print('connected to DB successfully')
     except:
         print(datetime.now(), "unable to connect to database")
